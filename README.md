@@ -15,4 +15,4 @@ The script has the following features:
 - Moves Pop Ups
 
 ## Credit
-Source code by me. Design by Keegan Tournay.
+Source code by me. Design by [Keegan Tournay](https://github.com/keegan-t).
