@@ -11,7 +11,7 @@ Install Tampermonkey, then click [this link](https://github.com/evan18c/Ghost-Cy
 The script has the following features:
 - Ghost Switching
 - Auto Save
-- Instant Refresh (CTLR + R)
+- Instant Refresh (CTRL + R)
 - Moves Pop Ups
 
 ## Credit
