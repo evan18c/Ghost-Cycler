@@ -1,6 +1,6 @@
 <div align="center">
-	<img src="https://i.imgur.com/cINh7S4.png">
 	<h1>Ghost Cycler</h1>
+	<img src="https://i.imgur.com/cINh7S4.png">
 	<p>Tampermonkey script to cycle through ghosts on TypeRacer without refreshing.</p>
 </div>
 
