@@ -7,8 +7,8 @@
 // @match        *.typeracer.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=typeracer.com
 // @grant        none
-// @downloadURL  temp
-// @updateURL    temp
+// @downloadURL  https://github.com/evan18c/Ghost-Cycler/raw/refs/heads/master/ghost_cycler.user.js
+// @updateURL    https://github.com/evan18c/Ghost-Cycler/raw/refs/heads/master/ghost_cycler.user.js
 // ==/UserScript==
 
 // Constant Script Variables

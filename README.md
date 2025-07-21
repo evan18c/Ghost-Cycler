@@ -7,7 +7,7 @@
 This is a Tampermonkey script to cycle through ghosts on TypeRacer without refreshing.
 
 ## Installation
-Install Tampermonkey, then click [this link](temp).
+Install Tampermonkey, then click [this link](https://github.com/evan18c/Ghost-Cycler/raw/refs/heads/master/ghost_cycler.user.js).
 
 ## Usage
 Copy + paste all your ghost links into the text box. Update Texts, then Reset.
