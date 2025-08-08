@@ -383,11 +383,12 @@ setInterval(checkFinishRace, 100);
 // Joins a replay
 function joinRecordedReplayGame(username, universe, racer, racerRaceID) {
 	if (isResponsive()) {
-		return request(`7|1|10|https://play.typeracer.com/com.typeracer.redesign.Redesign/|E74EC3EB4F04BBFC6069968CBACE8F8E|_|joinRecordedReplayGame|15|1f|2f|${username}|${universe}|${racer}|1|2|3|4|2|5|6|5|0|1|0|0|7|8|6|${racerRaceID}|9|7|10|`);
+		return request(`7|1|10|https://play.typeracer.com/com.typeracer.redesign.Redesign/|64AF0CF4C257A61B43C1C144CAE8EB67|_|joinRecordedReplayGame|15|1f|2f|${username}|${universe}|${racer}|1|2|3|4|2|5|6|5|0|1|0|0|7|8|6|${racerRaceID}|9|7|10|`);
 	} else {
-		return request(`7|1|10|https://play.typeracer.com/com.typeracer.guest.Guest/|E74EC3EB4F04BBFC6069968CBACE8F8E|_|joinRecordedReplayGame|15|1f|2f|${username}|${universe}|${racer}|1|2|3|4|2|5|6|5|0|1|0|0|7|8|6|${racerRaceID}|9|7|10|`);
+		return request(`7|1|10|https://play.typeracer.com/com.typeracer.guest.Guest/|64AF0CF4C257A61B43C1C144CAE8EB67|_|joinRecordedReplayGame|15|1f|2f|${username}|${universe}|${racer}|1|2|3|4|2|5|6|5|0|1|0|0|7|8|6|${racerRaceID}|9|7|10|`);
 	}
 }
+
 
 // Performs a gameserv request (synchronously to receive return data)
 function request(payload) {
@@ -397,10 +398,10 @@ function request(payload) {
 	xhr.setRequestHeader("Content-Type", "text/x-gwt-rpc;");
 	if (isResponsive()) {
 		xhr.setRequestHeader("X-Gwt-Module-Base", "https://play.typeracer.com/com.typeracer.redesign.Redesign/");
-		xhr.setRequestHeader("X-Gwt-Permutation", "19F71411B19FD494878FCCE29AFE09C1");
+		xhr.setRequestHeader("X-Gwt-Permutation", "A3AF211AA5E224293D782FFD93DFC16E");
 	} else {
 		xhr.setRequestHeader("X-Gwt-Module-Base", "https://play.typeracer.com/com.typeracer.guest.Guest/");
-		xhr.setRequestHeader("X-Gwt-Permutation", "ED1211404C912BE601AEEE56EEE75877");
+		xhr.setRequestHeader("X-Gwt-Permutation", "935B513506375EDB0ABDB6350E5644D1");
 	}
 	xhr.send(payload);
 	return xhr.responseText;
