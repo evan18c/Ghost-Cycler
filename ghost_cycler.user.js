@@ -80,9 +80,9 @@ function onFinish10Races() {
 	
 	// Update Site Variables
 	if (isResponsive()) {
-		win.JHb.b = "gameserv;jsessionid=" + jsessionid + ghost;
+		win.LAb.b = "gameserv;jsessionid=" + jsessionid + ghost;
 	} else {
-		win.CCb.b = "gameserv;jsessionid=" + jsessionid + ghost;
+		win.CFb.b = "gameserv;jsessionid=" + jsessionid + ghost;
 	}
 	
 	// Joins a new race
@@ -382,7 +382,7 @@ setInterval(checkFinishRace, 100);
 
 // Joins a replay
 function joinRecordedReplayGame(username, universe, racer, racerRaceID) {
-	return request(`7|1|10|${win.$moduleBase}|64AF0CF4C257A61B43C1C144CAE8EB67|_|joinRecordedReplayGame|15|1f|2f|${username}|${universe}|${racer}|1|2|3|4|2|5|6|5|0|1|0|0|7|8|6|${racerRaceID}|9|7|10|Bk|`);
+	return request(`7|1|10|${win.$moduleBase}|58891928A0FDDBA80EBF2E645D879779|_|joinRecordedReplayGame|15|1f|2f|${username}|${universe}|${racer}|1|2|3|4|2|5|6|5|0|1|0|0|7|8|6|${racerRaceID}|9|7|10|`);
 }
 
 
